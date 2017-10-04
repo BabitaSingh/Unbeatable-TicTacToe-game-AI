@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singh - TheDeveloper</title>
+    <meta name="description" content="Tech Lead, leading a team, at ServiceMaster located in Memphis, TN" />
+    <meta name="keywords" content="Babita Singh, Software Developer, Software Engineer, San Francisco, Memphis, Babita, Singh, Syracuse University, Developer, Portfolio, front-end developer, Back-end developer, Java Developer, AI, Artificial Intelligence, Machine Learning, Research & Development, Computer Science" />
+    <meta name="author" content="Babita Singh" />
+    <meta property="og:image" content="http://bitsingh.com/images/chooseAnImage.png" />
+    <meta property="og:title" content="Babita Singh - Developer" />
+    <meta property="og:url" content="http://bitsingh.com" />
+    <meta property="og:description" content="Tech Lead, leading a team, at ServiceMaster located in Memphis, TN" />
+     <link rel="icon" type="image/png" sizes="64x64" href="images/tictac_icon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body>
+<section id="about">
+    <div class="container">
+        <div class="row" style="height:auto;" >
+            <div class="col-md-4" >
+                <div class="row">
+					<h3 style="text-align: center"><b>Choose Your Turn<b></h3>
+				</div>
+				<div class="row" style="height:110px; width:110px; margin-left:25%; ">
+					<img href="" onclick="machineStarted();" id="faceIcon" src="images/machine6.jpg"/>
+				</div>
+				<div class="row" style="height:110px; width:110px; margin-left:25%;" >
+					<img href="" onclick="humanStarted();" id="faceIcon" src="images/human.png"/>
+				</div>
+            </div>			
+            <div id="grid" class="col-md-8" style="height:auto;">
+			<div class="row" style="padding-left: 10%; padding-right:10%;">
+				<table style="width:100%; height:100%;">
+				<tr style="border-bottom:medium #CC0000 solid;">
+					<td id="cell0" style="border-right:medium #CC0000 solid;"><i id="block0" class="col-md-1 fa "></i></td>
+					<td id="cell1" style="border-right:medium #CC0000 solid;"><i id="block1" class="col-md-1 fa "></i></td>	
+					<td id="cell2"><i id="block2" class="col-md-1 fa "></i></td>					
+				</tr>
+				<tr style="border-bottom:medium #CC0000 solid;">
+					<td id="cell3" style="border-right:medium #CC0000 solid;"><i id="block3" class="col-md-1 fa "></i></td>	
+					<td id="cell4" style="border-right:medium #CC0000 solid;"><i id="block4" class="col-md-1 fa "></i></td>	
+					<td id="cell5"><i id="block5" class="col-md-1 fa "></i></td>	
+				</tr>
+				<tr>
+					<td id="cell6" style="border-right:medium #CC0000 solid;"><i id="block6" class="col-md-1 fa"></i></td>	
+					<td id="cell7" style="border-right:medium #CC0000 solid;"><i id="block7" class="col-md-1 fa"></i></td>	
+					<td id="cell8"><i id="block8" class="col-md-1 fa "></i></td>								
+				</tr>				
+				</table>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+		<div class="row footerTabs">
+			<div class="col-md-5">
+				<a class="col-md-4 nav" href="https://www.bitsingh.com"><span id="name">Babita Singh</span></a>
+				<a class="col-md-1 nav" href="documents/Resume+Babita+Singh.pdf" download="Resume_Babita_Singh"><span id="resume">Resume</span></a>
+			</div>
+			<div class="col-md-3 socialprofile">
+				<a href="https://www.linkedin.com/in/singhbabita/"><i class="col-md-2 fa fa-linkedin"></i></a>
+				<a href="https://github.com/BabitaSingh"><i class="col-md-1 fa fa-github"></i></a>	
+			</div>
+            <div class="col-md-4 copyrights">					
+                <span>&copy; <span id="currentYear"></span> Babita Singh - All rights reserved.</span>
+            </div>			
+        </div>
+    </div>
+</footer>
+
+</body>
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/minimax.js"></script>	  
+</body>
+</html>
